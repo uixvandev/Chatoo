@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    background-image: url(/assets/bg.png);
+
+}
+
+.logo {
+    float: left;
+    width: 25%;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navbar {
+    float: right;
+    width: 75%;
+}
+
+.navbar li {
+    float: right;
+    width: 140px;
+    font-style: none;
+    display: block;
+    color: #230641;;
+}
+
+.navbar li button {
+    background: #5924ED;
+    border-radius: 36px;
+    padding: 10px 24px 10px 24px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    margin: -8px;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container {
+    overflow: auto;
+}
+
+.left-content {
+    float: left;
+    margin-top: 100px;
+}
+
+.left-content h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0;
+    color: #5924ED;
+}
+
+.left-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -0.01em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(24, 26, 33, 0.9);
+}
+
+.left-content p {
+    font-size: 18px;
+    font-weight: 100;
+    margin:0;
+    color: #230641;
+}
+
+.right-content {
+    float: right;
+}
+
+.right-content img {
+    height: 500px;   
+    margin-top: -40px; 
+}
+
+.left-content button {
+    background: #5924ED;
+    border-radius: 36px;
+    padding: 10px 24px 10px 24px;
+    border: 0;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
